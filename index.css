@@ -1,0 +1,51 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: Poppins;
+}
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: #ffff;
+  --btn-txt-color: #0000;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.header__content {
+  background-color: #0000;
+}
+
+.header__item {
+  color: var(--text-color);
+}
