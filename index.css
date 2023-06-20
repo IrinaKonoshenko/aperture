@@ -30,8 +30,8 @@ body {
 }
 
 :root {
-  --text-color: #ffff;
-  --btn-txt-color: #0000;
+  --text-color: #fff;
+  --btn-txt-color: #000;
 }
 
 .link {
@@ -43,7 +43,7 @@ body {
 }
 
 .header__content {
-  background-color: #0000;
+  background-color: #000;
 }
 
 .header__item {
