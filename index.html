@@ -20,62 +20,77 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <header class="header container">
-      <div class="header__content">
-        <div class="header__logo">
-          <img src="./image/symbol-defs.svg#icon-logo" alt="logo" />
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <div class="header__logo">
+            <a href="" class="link">
+              <img src="./image/logo.svg" alt="logo" />
+            </a>
+          </div>
+          <div class="header__right">
+            <a href="" class="link header__link">Business areas</a>
+            <nav class="header__menu">
+              <ul class="header__list list">
+                <li class="header__item">
+                  <a href="" class="link">Featured images</a>
+                </li>
+                <li class="header__item">
+                  <a href="" class="link">Gear cage</a>
+                </li>
+                <li class="header__item">
+                  <a href="" class="link">Contact</a>
+                </li>
+                <li class="header__item">
+                  <button class="header__btn">Get template</button>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
-        <nav class="header__menu">
-          <ul class="header__list">
-            <li class="header__item">Business areas</li>
-            <li class="header__item">Featured images</li>
-            <li class="header__item">Gear cage</li>
-            <li class="header__item">Contact</li>
-            <li class="header__item">
-              <button class="header__btn">Get template</button>
-            </li>
-          </ul>
-        </nav>
       </div>
     </header>
     <main>
       <div class="hero">
-        <img src="./image/hero.jpg" alt="photo-nature" />
-        <p class="hero__text">Photographer & Filmmaker</p>
-        <h2 class="hero__title">Aperture Studios</h2>
-        <p class="hero__description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
-          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-          Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
-          ut sem vitae risus tristique posuere.
-        </p>
-        <ul class="hero__list">
-          <li class="hero__item">
-            <svg width="16" height="16">
-              <use a href="./image/symbol-defs.svg#icon-oclock"></use>
-            </svg>
-          </li>
-          <li class="hero__item">1/2000s</li>
-          <li class="hero__item">
-            <svg width="16" height="16">
-              <use a href="./image/symbol-defs.svg#icon-zoom"></use>
-            </svg>
-          </li>
-          <li class="hero__item">f/11</li>
-          <li class="hero__item">
-            <svg width="32" height="16">
-              <use a href="./image/symbol-defs.svg#icon-iso"></use>
-            </svg>
-          </li>
-          <li class="hero__item">100</li>
-          <li class="hero__item">
-            <svg width="10" height="16">
-              <use a href="./image/symbol-defs.svg#icon-map"></use>
-            </svg>
-          </li>
-          <li class="hero__item">Iceland</li>
-        </ul>
+        <div class="container">
+          <div class="hero__content">
+            <p class="hero__text">Photographer & Filmmaker</p>
+            <p class="hero__title">Aperture Studios</p>
+            <p class="hero__description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros elementum tristique. Duis cursus,
+              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
+              libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum
+              lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+            </p>
+          </div>
+          <ul class="hero__list list">
+            <li class="hero__item">
+              <svg width="16" height="16">
+                <use a href="./image/symbol-defs.svg#icon-oclock"></use>
+              </svg>
+            </li>
+            <li class="hero__item">1/2000s</li>
+            <li class="hero__item">
+              <svg width="16" height="16">
+                <use a href="./image/symbol-defs.svg#icon-zoom"></use>
+              </svg>
+            </li>
+            <li class="hero__item">f/11</li>
+            <li class="hero__item">
+              <svg width="32" height="16">
+                <use a href="./image/symbol-defs.svg#icon-iso"></use>
+              </svg>
+            </li>
+            <li class="hero__item">100</li>
+            <li class="hero__item">
+              <svg width="10" height="16">
+                <use a href="./image/symbol-defs.svg#icon-map"></use>
+              </svg>
+            </li>
+            <li class="hero__item">Iceland</li>
+          </ul>
+        </div>
       </div>
     </main>
     <!-- section  -->
