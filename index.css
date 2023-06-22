@@ -57,9 +57,6 @@ body {
   padding: 35px 0 35px 0;
 }
 
-.header__logo {
-}
-
 .header__list {
   display: flex;
   justify-content: center;
@@ -93,11 +90,15 @@ body {
 }
 
 .hero {
+  position: relative;
   background-image: url(./image/hero.jpg);
+  background-repeat: no-repeat;
+  padding-top: 487px;
+  padding-bottom: 70px;
+  background-size: cover;
 }
 
 .hero__content {
-  padding: 446px 420px 61px;
 }
 
 .hero__text {
@@ -114,4 +115,36 @@ body {
   text-align: center;
   font-size: 54px;
   line-height: 1.1;
+  margin-top: 1px;
+}
+
+.hero__description {
+  color: var(--title-color);
+  text-align: center;
+  max-width: 580px;
+  margin: 0 auto;
+  padding-top: 18px;
+  font-size: 14px;
+  line-height: 1.42;
+}
+
+.hero__mark {
+  position: absolute;
+  right: 40px;
+  bottom: 41px;
+}
+
+.hero__list {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.hero__item {
+  color: var(--text-color);
+  fill: var(--text-color);
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+  font-size: 12px;
 }
