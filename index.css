@@ -47,6 +47,7 @@ body {
   --btn-txt-color: #000;
   --title-color: #c0c0c0;
 }
+
 .header {
   background-color: #000;
 }
@@ -56,14 +57,12 @@ body {
   align-items: center;
   padding: 35px 0 35px 0;
 }
-
 .header__list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 32px;
 }
-
 .header__item a {
   color: var(--text-color);
   font-size: 15px;
@@ -78,7 +77,6 @@ body {
   color: #fff;
   font-size: 13px;
 }
-
 .header__btn {
   color: var(--btn-txt-color);
   font-size: 16px;
@@ -97,10 +95,6 @@ body {
   padding-bottom: 70px;
   background-size: cover;
 }
-
-.hero__content {
-}
-
 .hero__text {
   color: var(--title-color);
   text-align: center;
@@ -109,7 +103,6 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-
 .hero__title {
   color: var(--text-color);
   text-align: center;
@@ -117,7 +110,6 @@ body {
   line-height: 1.1;
   margin-top: 1px;
 }
-
 .hero__description {
   color: var(--title-color);
   text-align: center;
@@ -127,19 +119,16 @@ body {
   font-size: 14px;
   line-height: 1.42;
 }
-
 .hero__mark {
   position: absolute;
   right: 40px;
   bottom: 41px;
 }
-
 .hero__list {
   display: flex;
   gap: 16px;
   align-items: center;
 }
-
 .hero__item {
   color: var(--text-color);
   fill: var(--text-color);
@@ -151,44 +140,124 @@ body {
 
 .photo {
   background-color: var(--btn-txt-color);
+  padding-top: 112px;
+  padding-bottom: 100px;
 }
-
 .photo__title {
   text-align: center;
   font-size: 40px;
   line-height: 1.05;
   color: var(--text-color);
-  padding-top: 112px;
+  margin-bottom: 15px;
 }
-
 .photo__description {
   color: var(--title-color);
   font-size: 23px;
   line-height: 1.3;
   text-align: center;
-  padding-top: 15px;
+  margin-bottom: 42px;
 }
-
 .photo__content {
   position: relative;
 }
-
 .photo__list {
-  padding-top: 42px;
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
 }
-
 .photo__item {
   position: relative;
   width: calc(100% / 2 - 16px);
   cursor: pointer;
 }
-
 .photo__content-text {
   position: absolute;
   left: 30px;
   right: 30px;
   bottom: 30px;
+}
+.photo__name {
+  font-size: 14px;
+  color: var(--text-color);
+  line-height: 1.42;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.photo__text {
+  color: var(--title-color);
+  font-size: 14px;
+  line-height: 1.42;
+}
+.photo__img {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.photo__btn {
+  background-color: var(--text-color);
+  color: var(--btn-txt-color);
+  font-size: 15px;
+  line-height: 1.3;
+  letter-spacing: 0.4px;
+  border-radius: 14px;
+  padding: 5px 15px 5px 4px;
+  margin-top: 15px;
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+}
+.photo__btn--point {
+  background-color: var(--btn-txt-color);
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+}
+
+.mountain {
+  background-image: url(./image/mountain.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 260px;
+  padding-bottom: 260px;
+  padding-right: 62px;
+}
+.mountain__content {
+  width: 300px;
+  margin-left: auto;
+}
+.mountain__title {
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 2px;
+  color: var(--text-color);
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+.mountain__description {
+  color: var(--title-color);
+  font-size: 14px;
+  line-height: 1.42;
+}
+.mountain__mark {
+  position: absolute;
+  right: 40px;
+  bottom: 41px;
+}
+.mountain__list {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.mountain__item {
+  color: var(--text-color);
+  fill: var(--text-color);
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+  font-size: 12px;
 }
